@@ -61,7 +61,7 @@ VERBOSITY_MAP: dict[int, int] = {
 LOG_ENCODING: str = "utf-8"
 
 
-__version__ = "1.0.0-rc2"
+__version__ = "1.0.0-rc3"
 
 
 class MarkupStripFormatter(logging.Formatter):
