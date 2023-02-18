@@ -61,6 +61,9 @@ VERBOSITY_MAP: dict[int, int] = {
 LOG_ENCODING: str = "utf-8"
 
 
+__version__ = "1.0.0-rc2"
+
+
 class MarkupStripFormatter(logging.Formatter):
     """Formatter subclass configured to remove rich library color tagging from log
     messages."""
