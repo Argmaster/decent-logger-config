@@ -102,7 +102,8 @@ def configure_logger(
         Specifies verbosity, 0 is critical, 3 or more is debug, intermediate values
         accordingly. When value exceeds this range, it is capped.
     logger_name : str
-        Name of global logger, usually name of your package (or script) is a good choice.
+        Name of global logger, usually name of your package (or script) is a good
+        choice.
     use_rich : bool
         Toggle rich logging to console. When disabled, all rich-specific color tagging
         will be removed from logged messages.
