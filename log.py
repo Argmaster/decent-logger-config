@@ -124,7 +124,7 @@ def configure_logger(
 
     # Log file handler - fixed log level to DEBUG
     file_handler = _create_file_handler(
-        logger_name, log_dir or Path.cwd(), auto_rollover_sec, max_log_files
+        logger_name, log_dir or Path.cwd() / "log", auto_rollover_sec, max_log_files
     )
     logger.addHandler(file_handler)
 
